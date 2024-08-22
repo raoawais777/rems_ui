@@ -13,10 +13,10 @@ const SignIn = () => {
       <div className="input-field">
         <i className="fas fa-lock"></i>
         <input type="password" placeholder="Password" required  />
-        <NavLink to="#" className="forgot">
-         <h3>Forgot Password</h3>
-        </NavLink>
       </div>
+      <NavLink to="/forgot-password" className="forgot">
+         Forgot Password
+        </NavLink>
       <input type="submit" value="Login" className="btn solid" />
       <p className="social-text">Or Sign in with social platforms</p>
       <div className="social-media">

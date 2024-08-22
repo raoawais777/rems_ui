@@ -47,8 +47,15 @@ form {
   padding: 0rem 5rem;
   transition: all 0.2s 0.7s;
   overflow: hidden;
+  
   grid-column: 1 / 2;
   grid-row: 1 / 2;
+}
+.forgot{
+  
+  text-decoration: none;
+ justify-self: flex-end;
+ 
 }
 
 form.sign-up-form {
@@ -401,9 +408,5 @@ form.sign-in-form {
     bottom: 28%;
     left: 50%;
   }
-  .forgot{
-    text-decoration: none;
-    color: rgb(61, 59, 59);
-    flex-direction: row;
-  }
+  
 }

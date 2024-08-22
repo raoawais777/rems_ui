@@ -1,0 +1,30 @@
+.fp-container{
+    
+    align-items: center;
+    background-color: aqua;
+    align-content: center;
+}
+.btn-fp{
+    padding: 5px;
+    background-color: #ef5b25;
+    border-radius: 10px;
+    margin-top: 14px;
+    margin-bottom: 5px;
+}
+input{
+    padding: 0 9px 0 4px;
+    margin-left: 6px;
+    border-block: none;
+    border-radius: 5px;
+}
+label{
+    font-size: 15px;
+    font-family: none;
+}
+.text{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+
+}

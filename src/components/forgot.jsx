@@ -34,22 +34,23 @@ const ForgotPassword = () => {
   return (
     <div className="wrapper">
       <div className="fp-container">
-        <div className="text">
-          <h2 className="title">Forgot Password</h2>
-          <p>Enter Your Email to reset the password and After Request Please check Your Email for Reset Link</p>
+        <div className="text-section">
+          <h2 className="title">Reset Password</h2>
+          <p className="para">Enter Your Email to reset the password and After Request Please check Your Email for Reset Link</p>
         </div>
 
         <form className="fp-form" onSubmit={handleForgotPassword}>
           <div className="fp-input-field">
-            <label htmlFor="email">Email Address:</label>
+            <label className="label" htmlFor="email">Email Address:</label>
             <input
               type="email"
               id="email"
-              placeholder="Enter Your Account Email"
+              placeholder="Enter Your Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
             />
+            <span className="icon">&#9993;</span>
           </div>
           <button type="submit" className="btn-fp">
             Send Request
